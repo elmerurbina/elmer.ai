@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Home - Elmer Urbina" %}{% endblock %}
+
+{% block content %}
+<section class="text-center mb-5">
+    <h1>{% trans "Empowering the Future with AI, ML, and Data Science" %}</h1>
+    <p class="lead">
+        {% trans "I am Elmer Urbina, a passionate programmer, Researcher and AI enthusiast with a focus on machine learning, data science, and responsible innovation." %}
+    </p>
+   
+    <p>
+        {% trans "Currently, I am working on exploring the essence of AI, its ethical implications, and how it can transform our future. I am preparing an academic paper on the metaphysical and practical dimensions of AI." %}
+    </p>
+</section>
+
+<section id="featured-projects" class="mb-5">
+    <h2 class="mb-4">{% trans "Featured Projects" %}</h2>
+    <div class="row">
+        {% for project in projects %}
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    <p class="card-text">{{ project.desc }}</p>
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <p>{% trans "No projects available at the moment." %}</p>
+        {% endfor %}
+    </div>
+</section>
+
+<section id="about-values" class="mb-5">
+    <h2 class="mb-4">{% trans "Values & Vision" %}</h2>
+    <ul>
+        <li>{% trans "Ethical and responsible AI development." %}</li>
+        <li>{% trans "Commitment to climate action and sustainability." %}</li>
+        <li>{% trans "Passion for research, metaphysics, and the future of humanity with AI." %}</li>
+        <li>{% trans "Bilingual: Fluent in English and Spanish, with a global perspective on AI's impact." %}</li>
+    </ul>
+</section>
+
+<section id="achievements" class="mb-5">
+    <h2 class="mb-4">{% trans "Achievements" %}</h2>
+    <ul>
+        {% for item in achievements %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section id="organizations" class="mb-5">
+    <h2 class="mb-4">{% trans "Memberships & Affiliations" %}</h2>
+    <ul>
+        <li>{% trans "Member of the American Physical Society (April 2025 - March 2026)." %}</li>
+        <li>{% trans "Member of AI 2030, contributing to the future of AI development." %}</li>
+    </ul>
+</section>
+
+<section id="research" class="mb-5">
+    <h2 class="mb-4">{% trans "Ongoing Research" %}</h2>
+    <p>
+        {% trans "Currently working on a personal academic paper exploring the essence of Artificial Intelligence, its philosophical and ethical implications, and how AI can transform social development and exoplanetary research." %}
+    </p>
+</section>
+
+<section id="projects" class="mb-5">
+    <h2 class="mb-4">{% trans "Highlighted Projects" %}</h2>
+    <ul>
+        <li><strong>FreudIA:</strong> {% trans "An AI-driven platform for mental health, providing virtual therapeutic interactions." %}</li>
+        <li><strong>StockFlow:Control Inteligente de Inventarios, Ventas, Pedidos:</strong> {% trans "AI-driven system with proactive alerts and real-time data analysis for MYPIMES in Nicaragua, optimizing business operations." %}</li>
+        
+    </ul>
+</section>
+
+{% endblock %}
