@@ -3,7 +3,6 @@
 import os
 import sys
 
-
 def main():
     """Run administrative tasks."""
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ElmerAi.settings")
@@ -15,8 +14,10 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
+    # Specify the host and port dynamically
+    if 'runserver' in sys.argv:
+        sys.argv.append('0.0.0.0:8000')  # Default port for local development
     execute_from_command_line(sys.argv)
-
 
 if __name__ == "__main__":
     main()

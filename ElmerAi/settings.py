@@ -34,6 +34,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'elmer-ai.onrender.com']
 
+DEFAULT_PORT = int(os.environ.get('PORT', 8000))
 
 
 # Application definition
