@@ -20,7 +20,8 @@ def main():
 
     # Ensure the app runs on 0.0.0.0 (for cloud environments)
     if 'runserver' in sys.argv:
-        sys.argv.append(f"0.0.0.0:{port}")
+        # Change the sys.argv to include the host and port dynamically
+        sys.argv[1:] = ['runserver', f'0.0.0.0:{port}']
 
     execute_from_command_line(sys.argv)
 
