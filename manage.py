@@ -14,9 +14,14 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
-    # Specify the host and port dynamically
+
+    # Dynamically get the port number from the environment
+    port = os.environ.get('PORT', 8000)  # Default to 8000 if PORT is not set
+
+    # Ensure the app runs on 0.0.0.0 (for cloud environments)
     if 'runserver' in sys.argv:
-        sys.argv.append('0.0.0.0:8000')  # Default port for local development
+        sys.argv.append(f"0.0.0.0:{port}")
+
     execute_from_command_line(sys.argv)
 
 if __name__ == "__main__":
