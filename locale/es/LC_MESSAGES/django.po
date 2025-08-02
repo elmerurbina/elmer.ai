@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ElmerAi 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-02 10:55-0600\n"
+"PO-Revision-Date: 2025-08-02 12:00+0000\n"
+"Last-Translator: Elmer Urbina <youremail@example.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ElmerAi/views.py:8
+msgid "Freud IA"
+msgstr "Freud IA"
+
+#: ElmerAi/views.py:9
+msgid ""
+"An AI-driven assistant for mental health, utilizing AI agents to manage "
+"different psychological problems and offer tailored support."
+msgstr ""
+"Asistente impulsado por IA para la salud mental, que utiliza agentes de IA "
+"para gestionar diferentes problemas psicológicos y ofrecer apoyo personalizado."
+
+#: ElmerAi/views.py:13
+msgid "SignBridge"
+msgstr "SignBridge"
+
+#: ElmerAi/views.py:14
+msgid ""
+"A computer vision project enabling communication through American Sign "
+"Language (ASL). It transcribes speech to signs and interprets signs to text "
+"in real-time."
+msgstr ""
+"Proyecto de visión por computadora que permite la comunicación mediante la Lengua "
+"de Señas Americana (ASL). Transcribe el habla a señas e interpreta señas a texto "
+"en tiempo real."
+
+#: ElmerAi/views.py:18
+msgid "HatoMaster"
+msgstr "HatoMaster"
+
+#: ElmerAi/views.py:19
+msgid ""
+"A web system for Nicaraguan cattle ranchers. Features inventory, sales, "
+"accounting reports, and analytics dashboards."
+msgstr ""
+"Sistema web para ganaderos nicaragüenses. Incluye inventario, ventas, informes "
+"contables y paneles de análisis."
+
+#: ElmerAi/views.py:23
+msgid "StockFlow"
+msgstr "StockFlow"
+
+#: ElmerAi/views.py:24
+msgid ""
+"A tool for real-time stock analysis and inventory management, developed "
+"collaboratively with a team."
+msgstr ""
+"Herramienta para análisis de inventario en tiempo real y gestión de existencias, "
+"desarrollada colaborativamente con un equipo."
+
+#: ElmerAi/views.py:28
+msgid "Data Analysis Project"
+msgstr "Proyecto de Análisis de Datos"
+
+#: ElmerAi/views.py:29
+msgid ""
+"An open-source project for statistical analysis, providing tools for solving "
+"specific statistical problems."
+msgstr ""
+"Proyecto de código abierto para análisis estadístico, que proporciona herramientas "
+"para resolver problemas estadísticos específicos."
+
+#: ElmerAi/views.py:34
+msgid "🥇 First Place – Rally Nacional de Innovación 2025 with EchoNic"
+msgstr "🥇 Primer Lugar – Rally Nacional de Innovación 2025 con EchoNic"
+
+#: ElmerAi/views.py:35
+msgid "🥇 First Place – Rally Nacional 2024 with EcoNic"
+msgstr "🥇 Primer Lugar – Rally Nacional 2024 con EcoNic"
+
+#: ElmerAi/views.py:36
+msgid "🥇 First Place – Innovation UNI 2024"
+msgstr "🥇 Primer Lugar – Innovación UNI 2024"
+
+#: ElmerAi/views.py:37
+msgid "🥉 Third Place – Rally Latinoamericano 2024"
+msgstr "🥉 Tercer Lugar – Rally Latinoamericano 2024"
+
+#: ElmerAi/views.py:38
+msgid "🥈 Second Place – Feria de Ciencia y Tecnología 2023"
+msgstr "🥈 Segundo Lugar – Feria de Ciencia y Tecnología 2023"
+
+
+#: templates/base.html:10
+msgid "Elmer Urbina - AI Developer"
+msgstr "Elmer Urbina - Desarrollador de IA"
+
+#: templates/base.html:20
+msgid "Elmer Urbina"
+msgstr "Elmer Urbina"
+
+#: templates/base.html:38
+msgid "Elmer Urbina. All rights reserved."
+msgstr "Elmer Urbina. Todos los derechos reservados."
+
+#: templates/index.html:5
+msgid "Home - Elmer Urbina"
+msgstr "Inicio - Elmer Urbina"
+
+#: templates/index.html:9
+msgid "Empowering the Future with AI, ML, and Data Science"
+msgstr "Impulsando el futuro con IA, ML y Ciencia de Datos"
+
+#: templates/index.html:11
+msgid ""
+"I am Elmer Urbina, a passionate programmer, Researcher and AI enthusiast "
+"with a focus on machine learning, data science, and responsible innovation."
+msgstr ""
+"Soy Elmer Urbina, un programador apasionado, investigador y entusiasta de la "
+"IA con enfoque en aprendizaje automático, ciencia de datos e innovación "
+"responsable."
+
+#: templates/index.html:15
+msgid ""
+"Currently, I am working on exploring the essence of AI, its ethical "
+"implications, and how it can transform our future. I am preparing an "
+"academic paper on the metaphysical and practical dimensions of AI."
+msgstr ""
+"Actualmente trabajo en explorar la esencia de la IA, sus implicaciones "
+"éticas y cómo puede transformar nuestro futuro. Estoy preparando un artículo "
+"académico sobre las dimensiones metafísicas y prácticas de la IA."
+
+#: templates/index.html:20
+msgid "Featured Projects"
+msgstr "Proyectos Destacados"
+
+#: templates/index.html:36
+msgid "No projects available at the moment."
+msgstr "No hay proyectos disponibles en este momento."
+
+#: templates/index.html:42
+msgid "Values & Vision"
+msgstr "Valores y Visión"
+
+#: templates/index.html:44
+msgid "Ethical and responsible AI development."
+msgstr "Desarrollo ético y responsable de IA."
+
+#: templates/index.html:45
+msgid "Commitment to climate action and sustainability."
+msgstr "Compromiso con la acción climática y la sostenibilidad."
+
+#: templates/index.html:46
+msgid "Passion for research, metaphysics, and the future of humanity with AI."
+msgstr ""
+"Pasión por la investigación, la metafísica y el futuro de la humanidad con "
+"IA."
+
+#: templates/index.html:47
+msgid ""
+"Bilingual: Fluent in English and Spanish, with a global perspective on AI's "
+"impact."
+msgstr ""
+"Bilingüe: fluidez en inglés y español, con una perspectiva global sobre el "
+"impacto de la IA."
+
+#: templates/index.html:52
+msgid "Achievements"
+msgstr "Logros"
+
+#: templates/index.html:62
+msgid "Services"
+msgstr "Servicios"
+
+#: templates/index.html:64
+msgid "Full Stack Web Development"
+msgstr "Desarrollo Web Full Stack"
+
+#: templates/index.html:65
+msgid "Enterprise Automation"
+msgstr "Automatización Empresarial"
+
+#: templates/index.html:66
+msgid "Chatbot Development"
+msgstr "Desarrollo de Chatbots"
+
+#: templates/index.html:67
+msgid "AI/ML Model Creation"
+msgstr "Creación de Modelos de IA/ML"
+
+#: templates/index.html:73
+msgid "Memberships & Affiliations"
+msgstr "Membresías y Afiliaciones"
+
+#: templates/index.html:75
+msgid "Member of the American Physical Society (April 2025 - March 2026)."
+msgstr "Miembro de la Sociedad Americana de Física (abril 2025 - marzo 2026)."
+
+#: templates/index.html:76
+msgid "Member of AI 2030, contributing to the future of AI development."
+msgstr "Miembro de AI 2030, contribuyendo al futuro del desarrollo de IA."
+
+#: templates/index.html:81
+msgid "Ongoing Research"
+msgstr "Investigación en Curso"
+
+#: templates/index.html:83
+msgid ""
+"Currently working on a personal academic paper exploring the essence of "
+"Artificial Intelligence, its philosophical and ethical implications, and how "
+"AI can transform social development and exoplanetary research."
+msgstr ""
+"Actualmente trabajando en un artículo académico personal que explora la "
+"esencia de la Inteligencia Artificial, sus implicaciones filosóficas y "
+"éticas, y cómo la IA puede transformar el desarrollo social y la "
+"investigación exoplanetaria."
+
+#: templates/index.html:88
+msgid "Highlighted Projects"
+msgstr "Proyectos Destacados"
+
+#: templates/index.html:90
+msgid ""
+"An AI-driven platform for mental health, providing virtual therapeutic "
+"interactions."
+msgstr ""
+"Una plataforma impulsada por IA para la salud mental, que proporciona "
+"interacciones terapéuticas virtuales."
+
+#: templates/index.html:91
+msgid ""
+"AI-driven system with proactive alerts and real-time data analysis for "
+"MYPIMES in Nicaragua, optimizing business operations."
+msgstr ""
+"Sistema impulsado por IA con alertas proactivas y análisis de datos en "
+"tiempo real para MYPIMES en Nicaragua, optimizando las operaciones "
+"comerciales."
+
+#: templates/index.html:99
+msgid "Tech Stack"
+msgstr "Tecnologías"
+
+#: templates/index.html:112
+msgid "Contact"
+msgstr "Contacto"
