@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ElmerAi 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 10:55-0600\n"
+"POT-Creation-Date: 2025-08-02 11:22-0600\n"
 "PO-Revision-Date: 2025-08-02 12:00+0000\n"
 "Last-Translator: Elmer Urbina <youremail@example.com>\n"
 "Language-Team: Spanish\n"
@@ -22,7 +22,8 @@ msgid ""
 "different psychological problems and offer tailored support."
 msgstr ""
 "Asistente impulsado por IA para la salud mental, que utiliza agentes de IA "
-"para gestionar diferentes problemas psicológicos y ofrecer apoyo personalizado."
+"para gestionar diferentes problemas psicológicos y ofrecer apoyo "
+"personalizado."
 
 #: ElmerAi/views.py:13
 msgid "SignBridge"
@@ -34,9 +35,9 @@ msgid ""
 "Language (ASL). It transcribes speech to signs and interprets signs to text "
 "in real-time."
 msgstr ""
-"Proyecto de visión por computadora que permite la comunicación mediante la Lengua "
-"de Señas Americana (ASL). Transcribe el habla a señas e interpreta señas a texto "
-"en tiempo real."
+"Proyecto de visión por computadora que permite la comunicación mediante la "
+"Lengua de Señas Americana (ASL). Transcribe el habla a señas e interpreta "
+"señas a texto en tiempo real."
 
 #: ElmerAi/views.py:18
 msgid "HatoMaster"
@@ -47,8 +48,8 @@ msgid ""
 "A web system for Nicaraguan cattle ranchers. Features inventory, sales, "
 "accounting reports, and analytics dashboards."
 msgstr ""
-"Sistema web para ganaderos nicaragüenses. Incluye inventario, ventas, informes "
-"contables y paneles de análisis."
+"Sistema web para ganaderos nicaragüenses. Incluye inventario, ventas, "
+"informes contables y paneles de análisis."
 
 #: ElmerAi/views.py:23
 msgid "StockFlow"
@@ -59,8 +60,8 @@ msgid ""
 "A tool for real-time stock analysis and inventory management, developed "
 "collaboratively with a team."
 msgstr ""
-"Herramienta para análisis de inventario en tiempo real y gestión de existencias, "
-"desarrollada colaborativamente con un equipo."
+"Herramienta para análisis de inventario en tiempo real y gestión de "
+"existencias, desarrollada colaborativamente con un equipo."
 
 #: ElmerAi/views.py:28
 msgid "Data Analysis Project"
@@ -71,8 +72,8 @@ msgid ""
 "An open-source project for statistical analysis, providing tools for solving "
 "specific statistical problems."
 msgstr ""
-"Proyecto de código abierto para análisis estadístico, que proporciona herramientas "
-"para resolver problemas estadísticos específicos."
+"Proyecto de código abierto para análisis estadístico, que proporciona "
+"herramientas para resolver problemas estadísticos específicos."
 
 #: ElmerAi/views.py:34
 msgid "🥇 First Place – Rally Nacional de Innovación 2025 with EchoNic"
@@ -93,7 +94,6 @@ msgstr "🥉 Tercer Lugar – Rally Latinoamericano 2024"
 #: ElmerAi/views.py:38
 msgid "🥈 Second Place – Feria de Ciencia y Tecnología 2023"
 msgstr "🥈 Segundo Lugar – Feria de Ciencia y Tecnología 2023"
-
 
 #: templates/base.html:10
 msgid "Elmer Urbina - AI Developer"
@@ -147,68 +147,84 @@ msgid "Values & Vision"
 msgstr "Valores y Visión"
 
 #: templates/index.html:44
-msgid "Ethical and responsible AI development."
-msgstr "Desarrollo ético y responsable de IA."
-
-#: templates/index.html:45
-msgid "Commitment to climate action and sustainability."
-msgstr "Compromiso con la acción climática y la sostenibilidad."
-
-#: templates/index.html:46
-msgid "Passion for research, metaphysics, and the future of humanity with AI."
+msgid ""
+"My work is grounded in the conviction that Artificial Intelligence must be "
+"developed with purpose, ethics, and humanity at its core. I envision a "
+"future where AI is not just powerful, but principled — a transformative "
+"force for social good, global equity, and sustainable progress."
 msgstr ""
-"Pasión por la investigación, la metafísica y el futuro de la humanidad con "
-"IA."
+"Mi trabajo se basa en la convicción de que la Inteligencia Artificial debe "
+"ser desarrollada con propósito, ética y humanidad en su esencia. Visualizo "
+"un futuro en el que la IA no solo sea poderosa, sino también con principios: "
+"una fuerza transformadora para el bien social, la equidad global y el "
+"progreso sostenible."
 
 #: templates/index.html:47
 msgid ""
-"Bilingual: Fluent in English and Spanish, with a global perspective on AI's "
-"impact."
+"I believe in creating inclusive, bilingual technologies that bridge cultures "
+"and empower individuals across borders. Through research, innovation, and "
+"collaboration, I strive to unlock AI's metaphysical and practical dimensions "
+"to elevate humanity's potential."
 msgstr ""
-"Bilingüe: fluidez en inglés y español, con una perspectiva global sobre el "
-"impacto de la IA."
+"Creo en la creación de tecnologías inclusivas y bilingües que conecten "
+"culturas y empoderen a las personas más allá de las fronteras. A través de "
+"la investigación, la innovación y la colaboración, busco desbloquear las "
+"dimensiones metafísicas y prácticas de la IA para elevar el potencial de la "
+"humanidad."
+
+#: templates/index.html:50
+msgid "Ethical and human-centered AI development"
+msgstr "Desarrollo de inteligencia artificial ético y centrado en pro de la humanidad."
+
+#: templates/index.html:51
+msgid "Climate responsibility and sustainable tech"
+msgstr "Responsabilidad climática y tecnología sostenible"
 
 #: templates/index.html:52
+msgid "Commitment to philosophical depth in technological advancement"
+msgstr "Compromiso con la profundidad filosófica en el avance tecnológico"
+
+#: templates/index.html:59
 msgid "Achievements"
 msgstr "Logros"
 
-#: templates/index.html:62
+#: templates/index.html:69
 msgid "Services"
 msgstr "Servicios"
 
-#: templates/index.html:64
+#: templates/index.html:71
 msgid "Full Stack Web Development"
 msgstr "Desarrollo Web Full Stack"
 
-#: templates/index.html:65
+#: templates/index.html:72
 msgid "Enterprise Automation"
 msgstr "Automatización Empresarial"
 
-#: templates/index.html:66
+#: templates/index.html:73
 msgid "Chatbot Development"
 msgstr "Desarrollo de Chatbots"
 
-#: templates/index.html:67
+#: templates/index.html:74
 msgid "AI/ML Model Creation"
 msgstr "Creación de Modelos de IA/ML"
 
-#: templates/index.html:73
+#: templates/index.html:80
 msgid "Memberships & Affiliations"
 msgstr "Membresías y Afiliaciones"
 
-#: templates/index.html:75
+#: templates/index.html:82
 msgid "Member of the American Physical Society (April 2025 - March 2026)."
 msgstr "Miembro de la Sociedad Americana de Física (abril 2025 - marzo 2026)."
 
-#: templates/index.html:76
+#: templates/index.html:83
 msgid "Member of AI 2030, contributing to the future of AI development."
 msgstr "Miembro de AI 2030, contribuyendo al futuro del desarrollo de IA."
 
-#: templates/index.html:81
+#: templates/index.html:88
 msgid "Ongoing Research"
 msgstr "Investigación en Curso"
 
-#: templates/index.html:83
+#: templates/index.html:90
 msgid ""
 "Currently working on a personal academic paper exploring the essence of "
 "Artificial Intelligence, its philosophical and ethical implications, and how "
@@ -219,31 +235,71 @@ msgstr ""
 "éticas, y cómo la IA puede transformar el desarrollo social y la "
 "investigación exoplanetaria."
 
-#: templates/index.html:88
-msgid "Highlighted Projects"
-msgstr "Proyectos Destacados"
+#: templates/index.html:96
+msgid "Skills"
+msgstr "Habilidades"
 
-#: templates/index.html:90
-msgid ""
-"An AI-driven platform for mental health, providing virtual therapeutic "
-"interactions."
-msgstr ""
-"Una plataforma impulsada por IA para la salud mental, que proporciona "
-"interacciones terapéuticas virtuales."
-
-#: templates/index.html:91
-msgid ""
-"AI-driven system with proactive alerts and real-time data analysis for "
-"MYPIMES in Nicaragua, optimizing business operations."
-msgstr ""
-"Sistema impulsado por IA con alertas proactivas y análisis de datos en "
-"tiempo real para MYPIMES en Nicaragua, optimizando las operaciones "
-"comerciales."
+#: templates/index.html:98
+msgid "Problem solving and adaptability in high-pressure environments"
+msgstr "Resolución de problemas y adaptabilidad en entornos de alta presión"
 
 #: templates/index.html:99
+msgid "Creative thinking applied to innovation and research"
+msgstr "Pensamiento creativo aplicado a la innovación y la investigación"
+
+#: templates/index.html:100
+msgid "Critical thinking and ethical analysis"
+msgstr "Pensamiento crítico y análisis ético"
+
+#: templates/index.html:101
+msgid "Englsih-Spanish Bilingual"
+msgstr "Bilingüe en inglés y español"
+
+#: templates/index.html:102
+msgid "Self-motivation, teamwork, and leadership"
+msgstr "Automotivación, trabajo en equipo y liderazgo"
+
+#: templates/index.html:109
 msgid "Tech Stack"
 msgstr "Tecnologías"
 
-#: templates/index.html:112
+#: templates/index.html:122
 msgid "Contact"
 msgstr "Contacto"
+
+#~ msgid "Bilingual innovation with a global mindset"
+#~ msgstr "Innovación bilingüe con una mentalidad global"
+
+#~ msgid "Commitment to climate action and sustainability."
+#~ msgstr "Compromiso con la acción climática y la sostenibilidad."
+
+#~ msgid ""
+#~ "Passion for research, metaphysics, and the future of humanity with AI."
+#~ msgstr ""
+#~ "Pasión por la investigación, la metafísica y el futuro de la humanidad "
+#~ "con IA."
+
+#~ msgid ""
+#~ "Bilingual: Fluent in English and Spanish, with a global perspective on "
+#~ "AI's impact."
+#~ msgstr ""
+#~ "Bilingüe: fluidez en inglés y español, con una perspectiva global sobre "
+#~ "el impacto de la IA."
+
+#~ msgid "Highlighted Projects"
+#~ msgstr "Proyectos Destacados"
+
+#~ msgid ""
+#~ "An AI-driven platform for mental health, providing virtual therapeutic "
+#~ "interactions."
+#~ msgstr ""
+#~ "Una plataforma impulsada por IA para la salud mental, que proporciona "
+#~ "interacciones terapéuticas virtuales."
+
+#~ msgid ""
+#~ "AI-driven system with proactive alerts and real-time data analysis for "
+#~ "MYPIMES in Nicaragua, optimizing business operations."
+#~ msgstr ""
+#~ "Sistema impulsado por IA con alertas proactivas y análisis de datos en "
+#~ "tiempo real para MYPIMES en Nicaragua, optimizando las operaciones "
+#~ "comerciales."
