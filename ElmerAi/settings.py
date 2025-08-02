@@ -31,8 +31,12 @@ SECRET_KEY = "django-insecure-6@f%(j#2nx9g3+!$sqpe(%$fjb6pavy7o5@0ruf5zp@n1gc_pf
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+CSRF_TRUSTED_ORIGINS = [
+    "https://elmer-ai.onrender.com",
+]
 
-import os
+
+
 
 ALLOWED_HOSTS = [
     'localhost',
